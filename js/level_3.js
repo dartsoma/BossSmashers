@@ -50,7 +50,7 @@ function form(event) {
 
 function randNumGenerator() {
 
-    let randNumber = Math.random() * 11;
+    let randNumber = Math.random() * 101;
     // return 0 - (num1-1)
     let wholeNum = Math.floor(randNumber);
     return wholeNum;

@@ -31,7 +31,7 @@ function form(event) {
     }
     if (score >= 10){
         console.log("You win")
-        window.location.href = "/levels/you_win.html"
+        window.location.href = "/levels/level_3.html"
         }
     if (health <= 0){
             console.log("Lol u lost, omegalul be better")
@@ -50,7 +50,7 @@ function form(event) {
 
 function randNumGenerator() {
 
-    let randNumber = Math.random() * 11;
+    let randNumber = Math.random() * 26;
     // return 0 - (num1-1)
     let wholeNum = Math.floor(randNumber);
     return wholeNum;

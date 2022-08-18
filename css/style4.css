@@ -1,29 +1,44 @@
 body{
-    background-image: url("https://artfiles.alphacoders.com/940/thumb-1920-94056.jpg");
+    background-image: url("https://images.alphacoders.com/881/thumb-1920-881685.jpg");
     background-size: cover;
     color:aliceblue
 }
 
 h1{
+    display: flex;
 font-family: 'Silkscreen', cursive;
 }
 
 #game{
+    display: flex;
     background-color: aquamarine;
 }
 
-#Boss1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px; 
+.Boss1{
+    display: flex;
+    width: 800px; 
 }
 
-#Player{
+.Player{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75px; 
+    width: 50px; 
+}
+
+#firstnum {
+    font-size: 50px;
+    font-family: 'Silkscreen', cursive;
+    }
+    #incre {
+        font-size: 50px;
+        font-family: 'Silkscreen', cursive;
+        color: yellow;
+    }
+    #health {
+        font-size: 50px;
+        font-family: 'Silkscreen', cursive;
+        color:red
 }
 
 img{
@@ -45,7 +60,7 @@ img{
     font-size: 17px;
     font-weight: 900;
     padding: 0;
-    background-color: #000000;
+    font-family: 'Silkscreen', cursive;
     -webkit-box-shadow: 1px 1px 4px 0 #000000;
     -moz-box-shadow: 1px 1px 4px 0 #000000;
     box-shadow: 1px 1px 4px 0 #000000;

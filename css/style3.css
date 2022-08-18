@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://artfiles.alphacoders.com/940/thumb-1920-94056.jpg");
+    background-image: url("https://th.bing.com/th/id/R.11bfb0a74d5bc2ab1f160d0b7b56cd78?rik=LmaMAYKDvZkBeQ&pid=ImgRaw&r=0");
     background-size: cover;
     color:aliceblue
 }
@@ -12,19 +12,34 @@ font-family: 'Silkscreen', cursive;
     background-color: aquamarine;
 }
 
-#Boss1{
+.Boss1{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 300px; 
 }
 
-#Player{
+.Player{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 75px; 
 }
+
+#firstnum {
+    font-size: 50px;
+    font-family: 'Silkscreen', cursive;
+    }
+    #incre {
+        font-size: 50px;
+        font-family: 'Silkscreen', cursive;
+        color: yellow;
+    }
+    #health {
+        font-size: 50px;
+        font-family: 'Silkscreen', cursive;
+        color:red
+    }
 
 img{
     display: block;
@@ -40,7 +55,7 @@ img{
     height: 29px;
     line-height: 29px;
     color: #FFFFFF;
-    font-family: Arial;
+    font-family: 'Silkscreen', cursive;
     width: 80px;
     font-size: 17px;
     font-weight: 900;

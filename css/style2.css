@@ -12,20 +12,31 @@ font-family: 'Silkscreen', cursive;
     background-color: aquamarine;
 }
 
-#Boss1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.Boss1{
+    display: flex;
     width: 300px; 
 }
 
-#Player{
+.Player{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 75px; 
 }
-
+#firstnum {
+font-size: 50px;
+font-family: 'Silkscreen', cursive;
+}
+#incre {
+    font-size: 50px;
+    font-family: 'Silkscreen', cursive;
+    color: yellow;
+}
+#health {
+    font-size: 50px;
+    font-family: 'Silkscreen', cursive;
+    color:red
+}
 img{
     display: block;
     margin-left: auto;
@@ -40,7 +51,7 @@ img{
     height: 29px;
     line-height: 29px;
     color: #FFFFFF;
-    font-family: Arial;
+    font-family: 'Silkscreen', cursive;
     width: 80px;
     font-size: 17px;
     font-weight: 900;
